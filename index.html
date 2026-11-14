@@ -1,0 +1,125 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="utf-8"><meta name="google-site-verification" content="3QKG3r617W4-EoTsCRA6fIFTljlpg5DLmsNWPf-FR7Y"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Oasis</title><meta name="referrer" content="no-referrer"><meta http-equiv="X-Frame-Options" content="DENY"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"><link rel="stylesheet" href="css/tailwind-yhh_qQhE.css"><link rel="stylesheet" href="css/minecraft-BmgSMGN2.css"></head><body><main class="h-screen w-full relative overflow-hidden"><video autoplay="" tabindex="-1" playsinline="" disablepictureinpicture="" loop="" muted="" class="fixed inset-0 pointer-events-none select-none min-h-full min-w-full object-cover"><source src="media/background-video.webm"></video><div class="before:absolute before:inset-0 h-full before:bg-black/60"><div class="absolute w-full h-screen inset-0 z-10 overflow-x-hidden overflow-y-auto"></div></div></main><script>((STORAGE_KEY, restoreKey) => {
+    if (!window.history.state || !window.history.state.key) {
+      let key = Math.random().toString(32).slice(2);
+      window.history.replaceState({
+        key
+      }, "");
+    }
+    try {
+      let positions = JSON.parse(sessionStorage.getItem(STORAGE_KEY) || "{}");
+      let storedY = positions[restoreKey || window.history.state.key];
+      if (typeof storedY === "number") {
+        window.scrollTo(0, storedY);
+      }
+    } catch (error) {
+      console.error(error);
+      sessionStorage.removeItem(STORAGE_KEY);
+    }
+  })("positions", null)</script><script>window.ENV = {"NODE_ENV":"production","HIDE_LOGS":true,"SHOULD_QUEUE":"true"}</script><link rel="modulepreload" href="js/entry.client-CH8-jUEz.js"><link rel="modulepreload" href="js/jsx-runtime-kF-aRxYe.js"><link rel="modulepreload" href="js/index-Dt2KMISC.js"><link rel="modulepreload" href="js/module-rM_-3Phw.js"><link rel="modulepreload" href="js/index-DFyyMxcp.js"><link rel="modulepreload" href="js/components-BE6wePbM.js"><link rel="modulepreload" href="js/usePHCapture-WfMIniTi.js"><link rel="modulepreload" href="js/common.utils-B4Y-Nu5c.js"><link rel="modulepreload" href="js/root-CW28hqjC.js"><link rel="modulepreload" href="js/alert-dialog-CUPNKRjY.js"><link rel="modulepreload" href="js/atoms-EVB3dtnd.js"><link rel="modulepreload" href="js/index-QsPdQENT.js"><link rel="modulepreload" href="js/_layout-dOuUIvq5.js"><link rel="modulepreload" href="js/route-CQ4Tn6fF.js"><link rel="modulepreload" href="js/decart-logo-BwwIcbqA.js"><link rel="modulepreload" href="js/index-vKlTnkPl.js"><link rel="modulepreload" href="js/react-icons.esm-vlpySPz7.js"><link rel="modulepreload" href="js/PlayBgMusicButton-WEMLaN1R.js"><link rel="modulepreload" href="js/route-DgX1xJ1V.js"><script>window.__remixContext = {"basename":"/","future":{"v3_fetcherPersist":true,"v3_relativeSplatPath":true,"v3_throwAbortReason":true,"v3_routeConfig":false,"v3_singleFetch":true,"v3_lazyRouteDiscovery":true,"unstable_optimizeDeps":false},"isSpaMode":false};window.__remixContext.stream = new ReadableStream({start(controller){window.__remixContext.streamController = controller;}}).pipeThrough(new TextEncoderStream());</script><script type="module" async="">;
+import * as route0 from "/assets/root-CW28hqjC.js";
+import * as route1 from "/assets/_layout-dOuUIvq5.js";
+import * as route2 from "/assets/route-DgX1xJ1V.js";
+window.__remixManifest = {
+  "entry": {
+    "module": "/assets/entry.client-CH8-jUEz.js",
+    "imports": [
+      "/assets/jsx-runtime-kF-aRxYe.js",
+      "/assets/index-Dt2KMISC.js",
+      "/assets/module-rM_-3Phw.js",
+      "/assets/index-DFyyMxcp.js",
+      "/assets/components-BE6wePbM.js"
+    ],
+    "css": []
+  },
+  "routes": {
+    "root": {
+      "id": "root",
+      "path": "",
+      "hasAction": false,
+      "hasLoader": true,
+      "hasClientAction": false,
+      "hasClientLoader": false,
+      "hasErrorBoundary": true,
+      "module": "/assets/root-CW28hqjC.js",
+      "imports": [
+        "/assets/jsx-runtime-kF-aRxYe.js",
+        "/assets/index-Dt2KMISC.js",
+        "/assets/module-rM_-3Phw.js",
+        "/assets/index-DFyyMxcp.js",
+        "/assets/components-BE6wePbM.js",
+        "/assets/usePHCapture-WfMIniTi.js",
+        "/assets/common.utils-B4Y-Nu5c.js"
+      ],
+      "css": []
+    },
+    "routes/_layout": {
+      "id": "routes/_layout",
+      "parentId": "root",
+      "hasAction": false,
+      "hasLoader": true,
+      "hasClientAction": false,
+      "hasClientLoader": false,
+      "hasErrorBoundary": false,
+      "module": "/assets/_layout-dOuUIvq5.js",
+      "imports": [
+        "/assets/jsx-runtime-kF-aRxYe.js",
+        "/assets/alert-dialog-CUPNKRjY.js",
+        "/assets/common.utils-B4Y-Nu5c.js",
+        "/assets/atoms-EVB3dtnd.js",
+        "/assets/index-DFyyMxcp.js",
+        "/assets/index-QsPdQENT.js",
+        "/assets/index-Dt2KMISC.js"
+      ],
+      "css": []
+    },
+    "routes/_layout.starting-point": {
+      "id": "routes/_layout.starting-point",
+      "parentId": "routes/_layout",
+      "path": "starting-point",
+      "hasAction": true,
+      "hasLoader": true,
+      "hasClientAction": false,
+      "hasClientLoader": false,
+      "hasErrorBoundary": false,
+      "module": "/assets/route-DgX1xJ1V.js",
+      "imports": [
+        "/assets/route-CQ4Tn6fF.js",
+        "/assets/jsx-runtime-kF-aRxYe.js",
+        "/assets/decart-logo-BwwIcbqA.js",
+        "/assets/index-vKlTnkPl.js",
+        "/assets/atoms-EVB3dtnd.js",
+        "/assets/common.utils-B4Y-Nu5c.js",
+        "/assets/react-icons.esm-vlpySPz7.js",
+        "/assets/index-QsPdQENT.js",
+        "/assets/index-Dt2KMISC.js",
+        "/assets/alert-dialog-CUPNKRjY.js",
+        "/assets/PlayBgMusicButton-WEMLaN1R.js",
+        "/assets/index-DFyyMxcp.js",
+        "/assets/usePHCapture-WfMIniTi.js",
+        "/assets/module-rM_-3Phw.js",
+        "/assets/components-BE6wePbM.js"
+      ],
+      "css": []
+    },
+    "routes/_index": {
+      "id": "routes/_index",
+      "parentId": "root",
+      "index": true,
+      "hasAction": false,
+      "hasLoader": true,
+      "hasClientAction": false,
+      "hasClientLoader": false,
+      "hasErrorBoundary": false,
+      "module": "/assets/_index-Bg1SR2wV.js",
+      "imports": [
+        "/assets/jsx-runtime-kF-aRxYe.js"
+      ],
+      "css": []
+    }
+  },
+  "url": "/assets/manifest-20b41193.js",
+  "version": "20b41193"
+};
+window.__remixRouteModules = {"root":route0,"routes/_layout":route1,"routes/_layout.starting-point":route2};
+
+import("/assets/entry.client-CH8-jUEz.js");</script><script>window.__remixContext.streamController.enqueue("[{\"_1\":2,\"_20\":-5,\"_21\":-5},\"loaderData\",{\"_3\":4,\"_13\":14,\"_17\":18},\"root\",{\"_5\":6},\"ENV\",{\"_7\":8,\"_9\":10,\"_11\":12},\"NODE_ENV\",\"production\",\"HIDE_LOGS\",true,\"SHOULD_QUEUE\",\"true\",\"routes/_layout\",{\"_15\":16},\"sessionId\",\"868d5db6-d546-47e7-a788-468829c0ae40\",\"routes/_layout.starting-point\",{\"_19\":-5},\"accessToken\",\"actionData\",\"errors\"]\n");</script><!--$--><script>window.__remixContext.streamController.close();</script><!--/$--><!--/$--><script>function $RC(a,b){a=document.getElementById(a);b=document.getElementById(b);b.parentNode.removeChild(b);if(a){a=a.previousSibling;var f=a.parentNode,c=a.nextSibling,e=0;do{if(c&&8===c.nodeType){var d=c.data;if("/$"===d)if(0===e)break;else e--;else"$"!==d&&"$?"!==d&&"$!"!==d||e++}d=c.nextSibling;f.removeChild(c);c=d}while(c);for(;b.firstChild;)f.insertBefore(b.firstChild,c);a.data="$";a._reactRetry&&a._reactRetry()}};$RC("B:0","S:0")</script><script>$RC("B:1","S:1")</script></body></html><!--$?-->
